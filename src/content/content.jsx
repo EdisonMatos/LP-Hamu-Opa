@@ -94,7 +94,7 @@ export const infos = {
       <p>9h às 18h</p>
     </div>
   ),
-  obs: <span className="italic">A Trabalhamos em regime de plantão 24h</span>,
+  obs: <span className="italic">Trabalhamos em regime de plantão 24h</span>,
   instagramProfile: "hamuopa.adv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
