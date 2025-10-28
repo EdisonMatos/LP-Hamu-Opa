@@ -506,14 +506,15 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "A_Definir",
-      subtitle: "",
+      title: "Informação jurídica ao seu alcance",
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/blogtestepaper.wordpress.com/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/hamuopa.wordpress.com/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://blogtestepaper.wordpress.com/",
+      blogLink: "https://hamuopa.wordpress.com",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
