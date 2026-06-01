@@ -80,9 +80,7 @@ export default function NavbarSocial({ colorMode }) {
 
   const getNavbarClasses = () => {
     if (colorMode === "light") {
-      return scrolling
-        ? "bg-white shadow-md"
-        : "desktop1:bg-white/20";
+      return scrolling ? "bg-white shadow-md" : "desktop1:bg-white/20";
     }
     if (colorMode === "dark") {
       return scrolling
@@ -97,8 +95,9 @@ export default function NavbarSocial({ colorMode }) {
 
   return (
     <div className="w-full">
-
-      <div className={`fixed z-20 w-full transition-colors duration-1000 ${getNavbarClasses()}`}>
+      <div
+        className={`fixed z-20 w-full transition-colors duration-1000 ${getNavbarClasses()}`}
+      >
         <Navbar>
           <ScrollLink
             to="home"
@@ -112,7 +111,7 @@ export default function NavbarSocial({ colorMode }) {
             <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
-              className={`bg-transparent max-h-[90px] ${
+              className={`bg-transparent max-h-[110px] max-w-[110px] ${
                 scrolling
                   ? "w-[50%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[40%] desktop2:w-[30%]"
                   : "my-[20px] w-[80%] tablet1:w-[80%] desktop2:w-[50%]"
@@ -140,4 +139,3 @@ export default function NavbarSocial({ colorMode }) {
     </div>
   );
 }
-

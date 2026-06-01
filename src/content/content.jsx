@@ -74,9 +74,9 @@ export const infos = {
   },
   endereco: (
     <div>
-      <p>Rua Visconde de Porto Seguro, nº 655,</p>
-      <p>sala 106, Centro Formosa - GO,</p>
-      <p>CEP: 73801-010.</p>
+      <p>Via 14 n° 07,</p>
+      <p>Setor Sul, Formosa - GO,</p>
+      <p>CEP: 73802-439.</p>
     </div>
   ),
   enderecoSecundario: (
